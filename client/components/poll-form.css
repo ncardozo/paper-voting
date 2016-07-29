@@ -1,0 +1,13 @@
+.poll-form 			{
+	margin-bottom:30px;
+}
+
+.poll-group   {
+  margin-bottom:20px;
+  background:#EEE;
+  padding:20px;
+}
+
+.poll-group label   {
+  font-size:18px;
+}

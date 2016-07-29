@@ -1,4 +1,3 @@
-/* CSS declarations go here */
 
 .container {
     margin: 0 auto;
@@ -9,11 +8,17 @@
     border-radius: 0;
 }
 
-.question-group   {
-  margin-bottom:20px;
-  background:#EEE;
-  padding:20px;
+body  {
+  padding-top:50px;
 }
-.question-group label   {
-  font-size:18px;
+.polls  {
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  padding: 5px;
+}
+
+.poll   {
+  width:25%;
+  margin:20px;
 }

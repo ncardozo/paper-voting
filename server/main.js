@@ -5,14 +5,19 @@ Meteor.startup(() => {
   if(Polls.find().count() === 0) {
     var initPoll =  [
       {
-          question: 'August-2016',
+          poll: 'August2016',
           choices: [
-            {text: 'Modules as objects in newspeak. By Gilad Bracha, Peter von der Ahé, Vassili Bykov, Yaron Kashai, William Maddox, Eliot Miranda',
-             votes: 0},
-             {text: '', votes: 0}
+            {title: 'Modules as objects in newspeak',
+             authors: 'Gilad Bracha, Peter von der Ahé, Vassili Bykov, Yaron Kashai, William Maddox, Eliot Miranda',
+             votes: 0}
           ]
       }
     ];
     Polls.insert(initPoll);
   }
+  var users = [
+    { userId: 'n.cardozo' },
+    { userId: 'mar-san1'  }
+  ];
+  Users.insert(users);
 });
