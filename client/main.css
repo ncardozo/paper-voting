@@ -1,0 +1,19 @@
+/* CSS declarations go here */
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.question-group   {
+  margin-bottom:20px;
+  background:#EEE;
+  padding:20px;
+}
+.question-group label   {
+  font-size:18px;
+}
