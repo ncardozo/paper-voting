@@ -4,6 +4,8 @@ import { ReactiveVar } from 'meteor/reactive-var';
 import './main.html';
 
 //ref: https://scotch.io/tutorials/learn-meteor-js-from-scratch-build-a-polling-app
+// look: https://github.com/arthow4n/fcc-voting/blob/master/client/index.html
+
 
 Template.hello.onCreated(function helloOnCreated() {
   // counter starts at 0
